@@ -6,17 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Loginpage {
+public class OrangeLoginpage {
 	WebDriver driver;
 	
 	@FindBy(id="txtUsername")
     WebElement username;
 	@FindBy(id="txtPassword")
 	WebElement pwd;
-	@FindBy(id="button")
+	@FindBy(id="btnLogin")
 	WebElement LoginButton;
-	
-public void loginpage(WebDriver driver) {
+
+public OrangeLoginpage(WebDriver driver) {
 	this.driver = driver;
 	PageFactory.initElements(driver, this);
 
