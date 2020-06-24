@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate login OrangeHrm Application",
+        "description": "",
+        "id": "to-validate-orangehrem-app;to-validate-login-orangehrm-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27356603900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "to launch the browser and anvigate to url",
+            "match": {
+              "location": "OrangeHrmlogin_steps.to_launch_the_browser_and_anvigate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2074448800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password",
+            "match": {
+              "location": "OrangeHrmlogin_steps.enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8961659700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click loginbutton",
+            "match": {
+              "location": "OrangeHrmlogin_steps.click_loginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1349261200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "take screenshot of the loginpage",
+            "match": {
+              "location": "OrangeHrmlogin_steps.take_screenshot_of_the_loginpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2296970500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "OrangeHrmlogin_steps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Orangehrem App",
+    "description": "",
+    "id": "to-validate-orangehrem-app",
+    "keyword": "Feature",
+    "uri": "Orangelogin.feature"
+  }
+]
